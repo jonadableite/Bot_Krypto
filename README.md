@@ -32,43 +32,48 @@ Contato
 🛠 Instalação
 Clone o repositório
 
-sh
+```sh
   git clone https://github.com/jonadab-leite/botkryptoelite.git
   cd botkryptoelite
+  ```
 
 Instale as dependências
 
-sh
+```sh
    npm install
+```
 
 Configure o ambiente
 
-sh
+```sh
    cp .env.example .env
+   ```
 
 Edite o arquivo .env com suas configurações.
 
 🖥 Uso
 Modo de desenvolvimento:
 
-sh
+```sh
   npm run dev
+  ```
 
 Modo de produção:
 
-sh
+```sh
   npm start
+```
 
 Executar testes:
 
-sh
+```sh
   npm test
+```
 
 ⚙️ Configuração
 O arquivo .env controla as configurações principais. Exemplo:
 
-env
-
+```env
 # Trading
 SYMBOL=BTCUSDT
 INTERVAL=15m
@@ -84,12 +89,13 @@ LEARNING_RATE=0.001
 
 # WhatsApp
 WHATSAPP_API_KEY=sua_chave_aqui
+```
 Veja .env.example para todas as opções disponíveis.
 
 📊 Estatísticas do GitHub
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jonadab-leite&layout=compact&theme=radical)](https://github.com/jonadab-leite/botkryptoelite)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jonadableite&layout=compact&theme=radical)](https://github.com/jonadableite/Bot_Krypto)
 
-[![Jonadab's GitHub stats](https://github-readme-stats.vercel.app/api?username=jonadab-leite&show_icons=true&theme=radical)](https://github.com/jonadab-leite/botkryptoelite)
+[![Jonadab's GitHub stats](https://github-readme-stats.vercel.app/api?username=jonadableite&show_icons=true&theme=radical)](https://github.com/jonadableite/Bot_Krypto)
 
 📁 Estrutura do Projeto
 src/
