@@ -1,27 +1,24 @@
 Bot Krypto Elite
-
 Um sistema de trading algorítmico avançado para criptomoedas, utilizando machine learning e análise técnica.
 
-Características •
+[![GitHub last commit](https://img.shields.io/github/last-commit/jonadab-leite/botkryptoelite)](https://github.com/jonadab-leite/botkryptoelite/commits/main)
 
-Instalação •
+[![GitHub issues](https://img.shields.io/github/issues/jonadab-leite/botkryptoelite)](https://github.com/jonadab-leite/botkryptoelite/issues)
 
-Uso •
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/jonadab-leite/botkryptoelite)](https://github.com/jonadab-leite/botkryptoelite/pulls)
 
-Configuração •
+[![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/jonadab-leite/botkryptoelite/blob/main/LICENSE)
 
-Contribuindo •
-
+Índice
+Características
+Instalação
+Uso
+Configuração
+Estatísticas do GitHub
+Estrutura do Projeto
+Contribuindo
 Licença
-
-GitHub last commit
-
-GitHub issues
-
-GitHub pull requests
-
-License
-
+Contato
 🚀 Características
 📊 Previsão de preços com LSTM (TensorFlow.js)
 📈 Análise técnica avançada (ATR, Bollinger Bands, EMA, MACD, RSI, Stochastic RSI)
@@ -34,33 +31,39 @@ License
 🏋️ Testes de estresse
 🛠 Instalação
 Clone o repositório
-sh
 
-   git clone https://github.com/jonadab-leite/botkryptoelite.git
-   cd botkryptoelite
+sh
+  git clone https://github.com/jonadab-leite/botkryptoelite.git
+  cd botkryptoelite
+
 Instale as dependências
-sh
 
+sh
    npm install
-Configure o ambiente
-sh
 
+Configure o ambiente
+
+sh
    cp .env.example .env
+
 Edite o arquivo .env com suas configurações.
 
 🖥 Uso
 Modo de desenvolvimento:
-sh
 
+sh
   npm run dev
+
 Modo de produção:
-sh
 
+sh
   npm start
-Executar testes:
-sh
 
+Executar testes:
+
+sh
   npm test
+
 ⚙️ Configuração
 O arquivo .env controla as configurações principais. Exemplo:
 
@@ -82,6 +85,11 @@ LEARNING_RATE=0.001
 # WhatsApp
 WHATSAPP_API_KEY=sua_chave_aqui
 Veja .env.example para todas as opções disponíveis.
+
+📊 Estatísticas do GitHub
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jonadab-leite&layout=compact&theme=radical)](https://github.com/jonadab-leite/botkryptoelite)
+
+[![Jonadab's GitHub stats](https://github-readme-stats.vercel.app/api?username=jonadab-leite&show_icons=true&theme=radical)](https://github.com/jonadab-leite/botkryptoelite)
 
 📁 Estrutura do Projeto
 src/
@@ -122,7 +130,6 @@ Distribuído sob a licença ISC. Veja LICENSE para mais informações.
 📧 Contato
 Jonadab Leite - jonadab.leite@gmail.com
 
-Link do Projeto: https://github.com/jonadab-leite/botkryptoelite
+Link do Projeto: [https://github.com/jonadableite/Bot_Krypto](https://github.com/jonadableite/Bot_Krypto.git)
 
 Feito com ❤️ por Jonadab Leite
-
