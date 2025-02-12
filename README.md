@@ -33,7 +33,7 @@ Contato
 Clone o repositório
 
 ```sh
-  git clone https://github.com/jonadab-leite/botkryptoelite.git
+  git clone https://github.com/jonadableite/Bot_Krypto.gitt
   cd botkryptoelite
   ```
 
