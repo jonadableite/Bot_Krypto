@@ -35,18 +35,15 @@ License
 🛠 Instalação
 Clone o repositório
 sh
-Copiar
 
    git clone https://github.com/jonadab-leite/botkryptoelite.git
    cd botkryptoelite
 Instale as dependências
 sh
-Copiar
 
    npm install
 Configure o ambiente
 sh
-Copiar
 
    cp .env.example .env
 Edite o arquivo .env com suas configurações.
@@ -54,24 +51,20 @@ Edite o arquivo .env com suas configurações.
 🖥 Uso
 Modo de desenvolvimento:
 sh
-Copiar
 
   npm run dev
 Modo de produção:
 sh
-Copiar
 
   npm start
 Executar testes:
 sh
-Copiar
 
   npm test
 ⚙️ Configuração
 O arquivo .env controla as configurações principais. Exemplo:
 
 env
-Copiar
 
 # Trading
 SYMBOL=BTCUSDT
