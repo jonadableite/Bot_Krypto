@@ -9,7 +9,8 @@ const PricePredictionModel = require("./src/models/pricePredictionModel");
 const calculateIndicators = require("./src/indicators/calculateIndicators");
 const stressTest = require("./src/utils/stressTest");
 const dataService = require("./src/services/data.service");
-const fs = require("node:fs").promises;
+const fs = require("node:fs");
+const fsPromises = require("node:fs").promises;
 const path = require("node:path");
 
 // Cria o diretório para salvar o modelo, se não existir
@@ -127,7 +128,10 @@ class EliteTrader {
 			trades: results.trades,
 		};
 		const filePath = path.join(__dirname, "backtest_results.json");
-		await fs.writeFile(filePath, JSON.stringify(detailedResults, null, 2));
+		await fsPromises.writeFile(
+			filePath,
+			JSON.stringify(detailedResults, null, 2),
+		);
 		console.log(`Resultados detalhados salvos em: ${filePath}`);
 	}
 

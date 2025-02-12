@@ -1,20 +1,26 @@
 {
-  "name": "bot_krypto",
-  "version": "1.0.0",
-  "description": "botdev para crypto",
-  "main": "index.js",
-  "scripts": {
-    "test": "dev"
-  },
-  "author": "Jonadab Leite",
-  "license": "ISC",
-  "dependencies": {
-    "@tensorflow/tfjs-node": "^4.22.0",
-    "axios": "^1.7.9",
-    "csv-parser": "^3.2.0",
-    "csv-writer": "^1.6.0",
-    "node-plot": "^1.0.0",
-    "technicalindicators": "^3.1.0",
-    "uuid": "^11.0.5"
-  }
+	"name": "bot_krypto",
+	"version": "1.0.0",
+	"description": "botdev para crypto",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jonadab Leite",
+	"license": "ISC",
+	"dependencies": {
+		"@tensorflow/tfjs-node": "^4.22.0",
+		"axios": "^1.7.9",
+		"csv-parser": "^3.2.0",
+		"csv-writer": "^1.6.0",
+		"dotenv": "^16.4.7",
+		"node-plot": "^1.0.0",
+		"technicalindicators": "^3.1.0",
+		"uuid": "^11.0.5"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
 }
