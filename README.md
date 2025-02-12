@@ -93,10 +93,11 @@ WHATSAPP_API_KEY=sua_chave_aqui
 Veja .env.example para todas as opções disponíveis.
 
 📊 Estatísticas do GitHub
+####
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jonadableite&layout=compact&theme=radical)](https://github.com/jonadableite/Bot_Krypto)
 
 [![Jonadab's GitHub stats](https://github-readme-stats.vercel.app/api?username=jonadableite&show_icons=true&theme=radical)](https://github.com/jonadableite/Bot_Krypto)
-
+###
 📁 Estrutura do Projeto
 src/
 
